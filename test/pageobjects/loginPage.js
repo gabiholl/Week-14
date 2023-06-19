@@ -1,4 +1,4 @@
-class loginPage {
+class LoginPage {
     
     get loginLogo() {
         return $("#root > div > div.login_logo");
@@ -16,10 +16,35 @@ class loginPage {
         return $("#login-button");
     }
 
+//Error Messages
     get errorMessage() {
         return $("#login_button_container > div > form > div.error-message-container");
     }
 
+    get errorMessageWrongUserAndPassword() {
+        return $("#login_button_container > div > form > div.error-message-container.error")
+    }
+
+    get errorMessageBlankUser() {
+        return $("#login_button_container > div > form > div.error-message-container.error")
+    }
+
+    get errorMessageBlankPassword() {
+        return $("#login_button_container > div > form > div.error-message-container.error")
+    }
+
+    get errorMessageLocked() {
+        return $("#login_button_container > div > form > div.error-message-container.error")
+    }
+
+    get problemPage() {
+        return $("#item_4_img_link > img")
+    }
+
+    get glitchPage() {
+        return $("#item_0_img_link > img")
+    }
+//
     async login (userName, password) {
         await this.userNameInput.setValue(userName);
         await this.passwordInput.setValue(password);
@@ -30,4 +55,4 @@ class loginPage {
     }
 }
 
-export default new loginPage();
+export default new LoginPage();
