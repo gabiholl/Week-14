@@ -1,13 +1,11 @@
-const Page = require("./page");
-
-class InventoryPage extends Page {
+class InventoryPage {
 
     // Add-to-cart button
-    get addBackpack() { 
+    get addBackPack() { 
         return $("#add-to-cart-sauce-labs-backpack") 
     }
 
-    get addBikelight() { 
+    get addBikeLight() {
         return $("#add-to-cart-sauce-labs-bike-light") 
     }
 
@@ -28,11 +26,11 @@ class InventoryPage extends Page {
     }
 
         // Remove button
-    get removeBackpack() { 
+    get removeBackPack() { 
         return $("#remove-sauce-labs-backpack") 
     }
 
-    get removeBikelight() { 
+    get removeBikeLight() { 
         return $("#remove-sauce-labs-bike-light") 
     }
 
@@ -53,11 +51,11 @@ class InventoryPage extends Page {
 }
 
 // Title Item
-    get bpackTitle() { 
+    get bPackTitle() { 
         return $("#item_4_title_link") 
     }
 
-    get backlightTitle() { 
+    get backLightTitle() { 
         return $("#item_0_title_link") 
     }
 
@@ -78,11 +76,11 @@ class InventoryPage extends Page {
     }
 
 // Images
-    get bpackImg() { 
+    get bPackImg() { 
         return $("#item_4_img_link") 
     }
 
-    get backlightImg() { 
+    get backLightImg() { 
         return $("#item_0_img_link") 
     }
 
