@@ -1,13 +1,13 @@
 class FooterPage{
 
     get facebookBtn() { 
-        return $('.social_facebook') 
+        return $(".social_facebook");
     }
     get twitterBtn() { 
-        return $('.social_twitter') 
+        return $(".social_twitter");
     } 
     get linkedinBtn() { 
-        return $('.social_linkedin') 
+        return $(".social_linkedin"); 
     }
 
 }

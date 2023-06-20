@@ -22,27 +22,27 @@ class LoginPage {
     }
 
     get errorMessageWrongUserAndPassword() {
-        return $("#login_button_container > div > form > div.error-message-container.error")
+        return $("#login_button_container > div > form > div.error-message-container.error");
     }
 
     get errorMessageBlankUser() {
-        return $("#login_button_container > div > form > div.error-message-container.error")
+        return $("#login_button_container > div > form > div.error-message-container.error");
     }
 
     get errorMessageBlankPassword() {
-        return $("#login_button_container > div > form > div.error-message-container.error")
+        return $("#login_button_container > div > form > div.error-message-container.error");
     }
 
     get errorMessageLocked() {
-        return $("#login_button_container > div > form > div.error-message-container.error")
+        return $("#login_button_container > div > form > div.error-message-container.error");
     }
 
     get problemPage() {
-        return $("#item_4_img_link > img")
+        return $("#item_4_img_link > img");
     }
 
     get glitchPage() {
-        return $("#item_0_img_link > img")
+        return $("#item_0_img_link > img");
     }
 //
     async login (userName, password) {

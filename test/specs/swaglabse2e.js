@@ -2,6 +2,7 @@ import LoginPage from '../pageobjects/loginPage.js'
 import InventoryPage from '../pageobjects/inventoryPage.js';
 import checkOutPage from '../pageobjects/checkOutPage.js';
 import MenuPage from '../pageobjects/menuPage.js';
+
 describe ("Swag labs Website - End to end test", ()=> {
     beforeAll("Open browser", ()=> {
         // browser.setWindowSize (1366, 768);
